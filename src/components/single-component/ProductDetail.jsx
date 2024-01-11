@@ -17,7 +17,7 @@ export function ProductDetail(){
                 const options = {
                     method: 'GET',
                     headers: {
-                        'X-RapidAPI-Key': '86b2455e59mshc1cce93a6b513b2p16e2f0jsne6a33747cd3d',
+                        'X-RapidAPI-Key': 'tu api',
                         'X-RapidAPI-Host': 'apidojo-hm-hennes-mauritz-v1.p.rapidapi.com'
                     }
                 }
