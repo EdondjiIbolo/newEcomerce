@@ -1,0 +1,65 @@
+:root {
+  font-family: 'Kumbh Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #cecccc3f; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --cl-grey:hsl(220, 14%, 75%) ; 
+  --cl-grey-light:hsl(223, 64%, 98%) ; 
+  --cl-white: hsl(0, 0%, 100%) ; 
+  --cl-black:hsl(0, 0%, 0%) ; 
+  --cl-dark-blue:hsl(220, 13%, 13%) ; 
+  --cl-blue-grey: hsl(219, 9%, 45%) ;
+  --cl-orange:hsl(26, 100%, 55%);
+  --cl-orange-light:hsl(25, 100%, 94%);
+  --fw-400:400;
+  --fw-700:700;
+
+  --fz-100:2.4rem;
+  --fz-300:1.1rem;
+  --fz-500:.95rem;
+  --fz-600:.85rem;
+  --border:.6rem;
+
+}
+* , *::after , *::before{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #d3cfcfe5;
+}
+p , h1 {
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.container{
+  width: min(1000px , 100%);
+  margin-inline:auto;
+  /* position: relative; */
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
